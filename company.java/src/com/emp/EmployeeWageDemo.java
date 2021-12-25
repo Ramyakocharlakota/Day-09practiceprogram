@@ -3,12 +3,12 @@ package com.emp;
 public class EmployeeWageDemo {
 	public static void main(String[] args) {
 		
-		  EmployeeWageBuilder dmartEmp = new EmployeeWageBuilder("DMart", "John", 8, 20, 20, 60);
+		  EmployeeWageBuilder dmartEmp = new EmployeeWageBuilder("DMart");
 		  System.out.println(dmartEmp);
 		 
 		  System.out.println("--------------------------------------");
 		  
-		  EmployeeWageBuilder rilEmp = new EmployeeWageBuilder("RIL", "Tony", 9, 25, 25, 80);
+		  EmployeeWageBuilder rilEmp = new EmployeeWageBuilder("RIL");
 		  System.out.println(rilEmp);
 		 
 		
