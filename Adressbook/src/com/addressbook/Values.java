@@ -1,5 +1,7 @@
 package com.addressbook;
 
+import java.util.Scanner;
+
 public class Values {
 	Scanner scanner = new Scanner(System.in);
 	public String  getFName() {
@@ -63,7 +65,6 @@ public class Values {
 		}
 	}
 	
-}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
